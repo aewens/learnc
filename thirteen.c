@@ -60,10 +60,6 @@ int strange_order(int a, int b)
     }
 }
 
-/** 
- * Used to test that we are sorting things correctly
- * by doing the sort and printing it out.
- */
 void test_sorting(int *nums, int count, compare_cb cmp)
 {
     int i = 0;
